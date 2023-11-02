@@ -1,0 +1,563 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+A:/UnityProjects/PurpleGit/PurpleGame/PurpleGameWithoutURP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49968
+Successfully changed project path to: A:/UnityProjects/PurpleGit/PurpleGame/PurpleGameWithoutURP
+A:/UnityProjects/PurpleGit/PurpleGame/PurpleGameWithoutURP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 100.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path A:/UnityProjects/PurpleGit/PurpleGame/PurpleGameWithoutURP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008209 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 107.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Domain Reload Profiling:
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004126 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\PurpleGit\PurpleGame\PurpleGameWithoutURP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\PurpleGit\PurpleGame\PurpleGameWithoutURP\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 108.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1662ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (1229ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (607ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (229.1 KB). Loaded Objects now: 4557.
+Memory consumption went from 158.2 MB to 158.0 MB.
+Total: 6.470600 ms (FindLiveObjects: 0.954700 ms CreateObjectMapping: 0.574500 ms MarkObjects: 4.567100 ms  DeleteObjects: 0.370900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2286.956803 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Menu Scene/Play Button.png
+  artifactKey: Guid(fe3f0545bd64ac14098804d50c3190a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Menu Scene/Play Button.png using Guid(fe3f0545bd64ac14098804d50c3190a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2934eb8877de7d894f2205cf646d997f') in 0.133358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.642824 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Menu Scene/Home Button.png
+  artifactKey: Guid(caf6813068613384d89d51d52d829a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Menu Scene/Home Button.png using Guid(caf6813068613384d89d51d52d829a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ae98462a8be883c2310370c2c61933') in 0.030087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.262439 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Menu Scene/Settings Button.png
+  artifactKey: Guid(372f9421cc4190f439a178fd72c2584c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Menu Scene/Settings Button.png using Guid(372f9421cc4190f439a178fd72c2584c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260f3d0ae68b8df11acf65a59d9526a4') in 0.019523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.187339 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Menu Scene/Artifact Button.png
+  artifactKey: Guid(015a517151935b046a1cef0a155f220a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Menu Scene/Artifact Button.png using Guid(015a517151935b046a1cef0a155f220a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0900bb4673cea5092575b34631bdca2') in 0.021757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 196.381841 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Locked Level Image.png
+  artifactKey: Guid(96db37273e5a37a4faaa52044fa644c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Locked Level Image.png using Guid(96db37273e5a37a4faaa52044fa644c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4af0f159b44541b2dd76fbe804cae01') in 0.017487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.471500 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/1OO coins Button.png
+  artifactKey: Guid(711a0341d21398f4ca925b6930b62a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/1OO coins Button.png using Guid(711a0341d21398f4ca925b6930b62a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cd3eaa9fbdcd73789c4154e268e165') in 0.005982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010289 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Arrow for wheel icon.png
+  artifactKey: Guid(10e30e284fca7c648b13887b7f5724ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Arrow for wheel icon.png using Guid(10e30e284fca7c648b13887b7f5724ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cb0c7e6d5ad3c5fd0225fbb632441d') in 0.010142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Wheel icon.png
+  artifactKey: Guid(8df4b33322cc16842a9d5b92fcf0ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Wheel icon.png using Guid(8df4b33322cc16842a9d5b92fcf0ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e202162503166f04f2f70398b7b4315') in 0.009804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Free Spin Button.png
+  artifactKey: Guid(05885396a837457468ee4c9fff03a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Free Spin Button.png using Guid(05885396a837457468ee4c9fff03a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c8f021b49c3f5781c9b1c0568c32d9') in 0.008730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.346819 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Background #2 blur.png
+  artifactKey: Guid(5153a5ec5287fe14b846aa745c804661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Background #2 blur.png using Guid(5153a5ec5287fe14b846aa745c804661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae09dde27164eb4494af1809244fcbc') in 0.205109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.114318 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Wheel icon.png
+  artifactKey: Guid(8df4b33322cc16842a9d5b92fcf0ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Wheel icon.png using Guid(8df4b33322cc16842a9d5b92fcf0ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523410228fc580996384b8c64e69a1fc') in 0.037599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 229.444355 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Free Spin Button.png
+  artifactKey: Guid(05885396a837457468ee4c9fff03a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Free Spin Button.png using Guid(05885396a837457468ee4c9fff03a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61d8a2d8504be9b38233d787741a575') in 0.017657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.345716 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/1OO coins Button.png
+  artifactKey: Guid(711a0341d21398f4ca925b6930b62a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/1OO coins Button.png using Guid(711a0341d21398f4ca925b6930b62a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056ba4131b6d674758aa6a9dc137305d') in 0.016678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.532658 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Arrow for wheel icon.png
+  artifactKey: Guid(10e30e284fca7c648b13887b7f5724ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Arrow for wheel icon.png using Guid(10e30e284fca7c648b13887b7f5724ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968ba7e3e8a044a2a9920f80d6b714de') in 0.026977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.766281 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Daily Bonus title image.png
+  artifactKey: Guid(d8c66ad5d9456b14f9a150f083a9174d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Daily Bonus/Daily Bonus title image.png using Guid(d8c66ad5d9456b14f9a150f083a9174d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d04f104b94bdae174840ba523cbedbe') in 0.016045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 256.920404 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Notification Button.png
+  artifactKey: Guid(f32b7096be87f834399a378f1ea865ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Notification Button.png using Guid(f32b7096be87f834399a378f1ea865ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b212d5a25e880b342853589848addf6') in 0.015109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 285.062437 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view Popup/Close Button.png
+  artifactKey: Guid(b1c00f248eeaada468d5298d27e43207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view Popup/Close Button.png using Guid(b1c00f248eeaada468d5298d27e43207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b126806d3608824c4a6eb3086aa0601') in 0.015096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.607169 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Unlocked artifact view/Background #2 blur.png
+  artifactKey: Guid(d203b8a5223d00c45b7b333e84218105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Unlocked artifact view/Background #2 blur.png using Guid(d203b8a5223d00c45b7b333e84218105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf105d3853fbf18b5c9a0c0aba14b77') in 0.020812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.479121 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Win view/Background #3.png
+  artifactKey: Guid(d05838f78bc1d104ea939eccbe8cb87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Win view/Background #3.png using Guid(d05838f78bc1d104ea939eccbe8cb87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0213aa47e661e2905f11a9607286183c') in 0.014212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Win view/Star icon.png
+  artifactKey: Guid(f1652b9cafca2694c81dde2ba3c9ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Win view/Star icon.png using Guid(f1652b9cafca2694c81dde2ba3c9ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7480c9ed80acbd1ccd3597ce2704b5d8') in 0.012516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Win view/Game Currency #2 icon.png
+  artifactKey: Guid(c778ce677336b9247b0c24448e5643c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Win view/Game Currency #2 icon.png using Guid(c778ce677336b9247b0c24448e5643c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de99e38ad65b32d054be83cf9c5a264') in 0.024922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Win view/Next Level Button.png
+  artifactKey: Guid(c587e136deb11444683c549bdead21b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Win view/Next Level Button.png using Guid(c587e136deb11444683c549bdead21b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da60e0e0732d58f4796764a4f6d85f92') in 0.011051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Win view/Game Currency #1 icon.png
+  artifactKey: Guid(bd99b5b516313234bbe277e88dcce951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Win view/Game Currency #1 icon.png using Guid(bd99b5b516313234bbe277e88dcce951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91aaab003db14be59a336cbcd04559ad') in 0.007538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.159881 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/bg 1 icon.png
+  artifactKey: Guid(93985fb0acb58c44784ab636f839059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/bg 1 icon.png using Guid(93985fb0acb58c44784ab636f839059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ad74207d66be6b2bd1e66087fe887e') in 0.014447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Game Currency #1 icon.png
+  artifactKey: Guid(979a103915ef07741bbbbc36bf7199f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Game Currency #1 icon.png using Guid(979a103915ef07741bbbbc36bf7199f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ac93fd1a50f81dfa2b014b643b82f4') in 0.008478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Home Button.png
+  artifactKey: Guid(a82c53d2558c4ff40bd14c919f3dcbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Home Button.png using Guid(a82c53d2558c4ff40bd14c919f3dcbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71ba452b374064474f6da1d24124550') in 0.011773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Coins pack.png
+  artifactKey: Guid(e2b8fe6d116a3954c95c514659374f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Coins pack.png using Guid(e2b8fe6d116a3954c95c514659374f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43088431a95475d6088165a938e555c9') in 0.011569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Game Currency #2 icon.png
+  artifactKey: Guid(0f7f9f44d34411b42bb235d03756fb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Game Currency #2 icon.png using Guid(0f7f9f44d34411b42bb235d03756fb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d8f6997597ce7468075870eb9d9dfa') in 0.010712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.313428 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Home Button.png
+  artifactKey: Guid(b0f5b0f6a1904a14882e2fefd11a71dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Home Button.png using Guid(b0f5b0f6a1904a14882e2fefd11a71dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dea1dac6f468b7c79f821efbe89ba0') in 0.013580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Settings title image.png
+  artifactKey: Guid(5c3713851161e2d4bb53dea314e15aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Settings title image.png using Guid(5c3713851161e2d4bb53dea314e15aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4572a8a5160e9e37b94718d862684c29') in 0.010282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.938253 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Available Level Image.png
+  artifactKey: Guid(647b48ecbd9878342ab1f405552e0d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Available Level Image.png using Guid(647b48ecbd9878342ab1f405552e0d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85f4f5ccac051ddf60d01bc7b11dbb2') in 0.005695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014211 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Background #1 blur.png
+  artifactKey: Guid(8ff192a5e7f0d2943b26d99563750914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Background #1 blur.png using Guid(8ff192a5e7f0d2943b26d99563750914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ef60143c4ee7e90d473e93716dd5b2') in 0.026653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Gift icon.png
+  artifactKey: Guid(cb5342dc4a043ec4c8d3f8ece011e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Gift icon.png using Guid(cb5342dc4a043ec4c8d3f8ece011e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0caf3eb6160f9cc8f6ce0067e0ffff') in 0.006775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Locked Level Image.png
+  artifactKey: Guid(96db37273e5a37a4faaa52044fa644c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Locked Level Image.png using Guid(96db37273e5a37a4faaa52044fa644c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49461e835457f548e7333264398312d6') in 0.010722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.407741 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Background #1 blur.png
+  artifactKey: Guid(8ff192a5e7f0d2943b26d99563750914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Background #1 blur.png using Guid(8ff192a5e7f0d2943b26d99563750914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492d07413e270052a082234044f186d0') in 0.193371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.603845 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Level line image.png
+  artifactKey: Guid(a4a98d104440dff449b0a31060958b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view/Level line image.png using Guid(a4a98d104440dff449b0a31060958b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2028d852d4c78c86d3831060aae1eb08') in 0.034442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1029.004949 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Background #2.png
+  artifactKey: Guid(16e1f93500cc8ec43b93b3561eb4cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Background #2.png using Guid(16e1f93500cc8ec43b93b3561eb4cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbaebc0ef3e1d6a03b10f149042e5b4') in 0.053883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/How to play Button.png
+  artifactKey: Guid(bfd39746d0e416442ad0fc00ceb7ea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/How to play Button.png using Guid(bfd39746d0e416442ad0fc00ceb7ea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3976268a53d2bc9cdd0c5587877379cb') in 0.006674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Switch off icon.png
+  artifactKey: Guid(15834a915dadcb54aaa44910a1bb94e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Switch off icon.png using Guid(15834a915dadcb54aaa44910a1bb94e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8306cabc06368bb01d8c9fcc62a38eb') in 0.005683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Privacy Policy Button.png
+  artifactKey: Guid(440bce125df53074fa5234f7b10e91ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Privacy Policy Button.png using Guid(440bce125df53074fa5234f7b10e91ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb2f4a8ff350a25cc9bef82360aaa43') in 0.007619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.010964 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Background #2.png
+  artifactKey: Guid(16e1f93500cc8ec43b93b3561eb4cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Background #2.png using Guid(16e1f93500cc8ec43b93b3561eb4cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a9a791046fba6976567fd2b6861960') in 0.205289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.129415 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Panel #1.png
+  artifactKey: Guid(c77a30106a83ae04b9dd24ce9b225a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Panel #1.png using Guid(c77a30106a83ae04b9dd24ce9b225a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e48f00d5338c6962500675ee2ef12fe') in 0.028835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.351247 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Home Button.png
+  artifactKey: Guid(b0f5b0f6a1904a14882e2fefd11a71dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Home Button.png using Guid(b0f5b0f6a1904a14882e2fefd11a71dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38b45b20d6b0d262955d9e56ff36053') in 0.018344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2034.980399 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Settings title image.png
+  artifactKey: Guid(5c3713851161e2d4bb53dea314e15aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Settings title image.png using Guid(5c3713851161e2d4bb53dea314e15aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea24679cd975d4cfd56ddf70ccbfd43') in 0.031071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 177.527401 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Switch on icon.png
+  artifactKey: Guid(21dae43eb954c43458d17fe2112779bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Switch on icon.png using Guid(21dae43eb954c43458d17fe2112779bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbece8eed92973d9ee2c5b2b9079c355') in 0.016335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.948977 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Switch off icon.png
+  artifactKey: Guid(15834a915dadcb54aaa44910a1bb94e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Switch off icon.png using Guid(15834a915dadcb54aaa44910a1bb94e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6a8f80f9f0a97e71cbccdde99788b6') in 0.015227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.721895 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Privacy Policy Button.png
+  artifactKey: Guid(440bce125df53074fa5234f7b10e91ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/Privacy Policy Button.png using Guid(440bce125df53074fa5234f7b10e91ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de1e203b9caa7452ff7371f017e8e6a') in 0.020074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.104603 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/How to play Button.png
+  artifactKey: Guid(bfd39746d0e416442ad0fc00ceb7ea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Settings/How to play Button.png using Guid(bfd39746d0e416442ad0fc00ceb7ea12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a8062c1e1cf17395b9167eac5f36db') in 0.019904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1629.827273 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Item image.png
+  artifactKey: Guid(2aefc0e4a227b394785c8b7e9240f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Item image.png using Guid(2aefc0e4a227b394785c8b7e9240f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b93c59c86412b9fc243ef92dd3584d6') in 0.024935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Mega Crystals pack.png
+  artifactKey: Guid(7b7bd79b4de7acb4a80d4a356cbf4dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Mega Crystals pack.png using Guid(7b7bd79b4de7acb4a80d4a356cbf4dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8a36b69eb3ecd63fd6969ad8449259') in 0.012794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.284140 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Shop panel #2.png
+  artifactKey: Guid(dc8831e85efc1b04e8f1cc67c993fe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Shop panel #2.png using Guid(dc8831e85efc1b04e8f1cc67c993fe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302fd9d838eab15bb9004884ada67394') in 0.009051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Shop title image.png
+  artifactKey: Guid(40cf783f434a11042b9741f4a9ca0e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Shop title image.png using Guid(40cf783f434a11042b9741f4a9ca0e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd587bb239c12f270a9e79ccaf4de819f') in 0.009639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.106384 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Super Coins pack.png
+  artifactKey: Guid(9357245d6fb11b6499b1282d6b35dd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Shop view/Super Coins pack.png using Guid(9357245d6fb11b6499b1282d6b35dd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd084b9016c698a903e93553220f0a11') in 0.019601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.352469 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Bonus/Background #3.png
+  artifactKey: Guid(7b20463d6c3d0594a8b6ce392b8a9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Bonus/Background #3.png using Guid(7b20463d6c3d0594a8b6ce392b8a9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71804602d1c1430263083bb9663c6cb0') in 0.017615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Bonus/Reverse side of card.png
+  artifactKey: Guid(e4636c8fb5245734a9efa5d2a94bcf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Bonus/Reverse side of card.png using Guid(e4636c8fb5245734a9efa5d2a94bcf80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8fa3b3af2599a4ee41d257fc212256') in 0.012149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.992305 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view Popup/Background #1 blur.png
+  artifactKey: Guid(871a2ba24205b4e4097cb0d3406a532a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view Popup/Background #1 blur.png using Guid(871a2ba24205b4e4097cb0d3406a532a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c786a650c700a8558268966958cdf1ef') in 0.041085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view Popup/Panel #1.png
+  artifactKey: Guid(83a77b54f93a6424391ae7eef4429bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view Popup/Panel #1.png using Guid(83a77b54f93a6424391ae7eef4429bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2943268b39237be94782f358f68e86d') in 0.006947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.892127 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view Popup/Background #1 blur.png
+  artifactKey: Guid(871a2ba24205b4e4097cb0d3406a532a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view Popup/Background #1 blur.png using Guid(871a2ba24205b4e4097cb0d3406a532a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44516c6f203ed634768e68b8d30edee5') in 0.220704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.717156 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view Popup/Claim Bonus Button.png
+  artifactKey: Guid(7253530d131ea4e4199c588cfdbea3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view Popup/Claim Bonus Button.png using Guid(7253530d131ea4e4199c588cfdbea3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106f34e9fe982d9d86fbd05f6be7d34c') in 0.012666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 200.547289 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view Popup/Game Currency #1 icon.png
+  artifactKey: Guid(912050e19ed01bb40bdb988d1075b8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Levels view Popup/Game Currency #1 icon.png using Guid(912050e19ed01bb40bdb988d1075b8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5003bb949552abbd1e9e06d4a90d06') in 0.019732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 447.367950 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Background #2.png
+  artifactKey: Guid(f248ccf2c519f5f41b44f94a385ef961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Background #2.png using Guid(f248ccf2c519f5f41b44f94a385ef961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1390f429a9bd0cc1e0ad30f0d2ed6ed0') in 0.031025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Panel #1.png
+  artifactKey: Guid(25180df443f3e7f4cb500f132e8546d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Panel #1.png using Guid(25180df443f3e7f4cb500f132e8546d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112cf29d3a2685a6d0b2e2c7b800fc20') in 0.007464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.259097 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Panel #1.png
+  artifactKey: Guid(25180df443f3e7f4cb500f132e8546d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Panel #1.png using Guid(25180df443f3e7f4cb500f132e8546d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe0558175a289b843d80d773f19b764') in 0.020104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.638695 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Background #2.png
+  artifactKey: Guid(f248ccf2c519f5f41b44f94a385ef961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Background #2.png using Guid(f248ccf2c519f5f41b44f94a385ef961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25ef803e399d14fe6714f97767c21c9') in 0.221836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 432.475616 seconds.
+  path: Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Notification Button.png
+  artifactKey: Guid(f32b7096be87f834399a378f1ea865ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/!_App - WA-iOS-5.3.1/Assets/!_App - WA-iOS-5.3.1/Graphics/Screens/Push Notification view/Notification Button.png using Guid(f32b7096be87f834399a378f1ea865ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59eadd757e794ed76187890652f2301') in 0.017206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.593327 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ee1c5fb31daf410c0c9c3338bab2d4') in 0.197861 seconds 

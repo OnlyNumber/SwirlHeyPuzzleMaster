@@ -1,0 +1,6 @@
+Files under 15 puzzle/ folder are third party code under their own
+respective licenses:
+
+Component Name: ST-SimpleSquare
+License Type: free for commercial use
+Site :https://fontesk.com/simple-square-font
