@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdbae0b7b1d37c841a68c3ee1985dc2f, type: 3}
+  m_Name: PuzzleSkins
+  m_EditorClassIdentifier: 
+  _chipPrefab: {fileID: 7194808927010299357, guid: e61b8cc424094104d81ebe8671762222, type: 3}
+  _chipSprites:
+  - {fileID: 1195874490, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: 1437724020, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: -1556219798, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: -206001798, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: 1512523717, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: -386497007, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: -2015498424, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: 1710848297, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: -771633734, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: 257846498, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: 2072430515, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: 22433078, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: 1985130746, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: 1011911803, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
+  - {fileID: 433721923, guid: 2559bb17df18ecb40bb7e5a4c07020c7, type: 3}
