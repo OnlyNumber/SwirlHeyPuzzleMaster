@@ -20,19 +20,57 @@ public class CreateBoard : MonoBehaviour
 
     public int skinNumber = 0;
 
-    public Action OnWinGame;
-    
+    public Action OnEndGame;
+
+    private float Timer;
+
     [SerializeField]
     private List<TileFabric> _skinsFabric;
 
+    [SerializeField]
+    private Text _timerText;
+
+    public bool IsGame = true;
+
+    [SerializeField,Tooltip("Определяет, какое колво тебе установить очков ")]
+    private int ConsoleSetCountSimilars;
+
+    [ContextMenu("SetCountSimilarsConsole")]
+    public void SetCountSimilarsConsole()
+    {
+        CountSimilars = ConsoleSetCountSimilars;
+        _scoreText.text = CountSimilars + "/15";
+    }
+
+
+    public int CountSimilars { get; private set; }
+
     void Start()
     {
+        Timer = GlobalGameData.TimerCount;
+
         _best.text = PlayerPrefs.GetInt("best").ToString();
 
-        OnWinGame += (() => SetChipsCollidersActivity(false));
+        OnEndGame += (() => SetChipsCollidersActivity(false));
+    }
 
-        //GenerateBoard();
-        //ShowBoard();
+    private void Update()
+    {
+
+
+        if (IsGame)
+        {
+            if (Timer < 0)
+            {
+                IsGame = false;
+
+                OnEndGame?.Invoke();
+            }
+
+            Timer -= Time.deltaTime;
+
+            _timerText.text = FromIntToTime((int)Timer);
+        }
     }
 
     public void InitializeBoard(int skin)
@@ -56,10 +94,10 @@ public class CreateBoard : MonoBehaviour
             {
                 int row = UnityEngine.Random.Range(0, 4);
                 int col = UnityEngine.Random.Range(0, 4);
-                if (GlobalData.boardArray[row, col] == 0)
+                if (GlobalGameData.boardArray[row, col] == 0)
                 {
                     cancel = true;
-                    GlobalData.boardArray[row, col] = i;
+                    GlobalGameData.boardArray[row, col] = i;
                 }
             } while (!cancel);
         }
@@ -71,22 +109,22 @@ public class CreateBoard : MonoBehaviour
         {
             for (int col = 0; col < 4; col++)
             {
-                if (GlobalData.boardArray[row, col] != 0)
+                if (GlobalGameData.boardArray[row, col] != 0)
                 {
                     Vector3 coardinate = new Vector3(board_position.x + row * split_x, board_position.y,
                         board_position.z + col * split_z);
-                    int chip = GlobalData.boardArray[row, col] - 1;
-                    var chipGO = _skinsFabric[skinNumber].Get(chip, coardinate, transform.rotation).gameObject;
+                    int chip = GlobalGameData.boardArray[row, col] - 1;
+                    var chipGO = _skinsFabric[skinNumber].Get(chip, coardinate, transform.rotation);
                     if (chip_scale_modifier != 0)
                         chipGO.transform.localScale *= chip_scale_modifier;
 
-                    chipGO.GetComponent<ChipMove>().OnMoveChip += CheckOnComplete;
-                    chipGO.GetComponent<ChipMove>().OnMoveChip += MotionCountPlus;
+                    chipGO.OnMoveChip += CheckOnComplete;
+                    chipGO.OnMoveChip += MotionCountPlus;
 
 
                     chipGO.transform.parent = transform;
                     chipGO.name = chips[chip].name;
-                    chipsPool.Add(chipGO);
+                    chipsPool.Add(chipGO.gameObject);
                 }
             }
         }
@@ -96,49 +134,55 @@ public class CreateBoard : MonoBehaviour
     {
         foreach (var chip in chipsPool)
         {
-            chip.GetComponent<BoxCollider>().enabled = false;
+            chip.GetComponent<BoxCollider>().enabled = activity;
         }
     }
 
     private void CheckOnComplete()
     {
-        int count = 1;
+        CountSimilars = 1;
 
         for (int row = 0; row < 4; row++)
         {
             for (int col = 0; col < 4; col++)
             {
-                if (GlobalData.boardArray[row, col] == count)
+                if (GlobalGameData.boardArray[row, col] == CountSimilars)
                 {
-                    Debug.Log(count);
-                    _scoreText.text = count + "/15";
+                    Debug.Log(CountSimilars);
+                    _scoreText.text = CountSimilars + "/15";
 
                 }
                 else
                 {
                     return;
                 }
-                count++;
-                count = 16;
-                if (count == 16)
+                CountSimilars++;
+                if (CountSimilars == 16)
                 {
-                    if (GlobalData.currentScore < PlayerPrefs.GetInt("best") || PlayerPrefs.GetInt("best") == 0)
-                    {
-                        PlayerPrefs.SetInt("best", GlobalData.currentScore);
-                        _best.text = PlayerPrefs.GetInt("best").ToString();
-                    }
-
-                    OnWinGame?.Invoke();
+                    OnEndGame?.Invoke();
 
                 }
             }
         }
     }
 
+    public void AddTime(float Time)
+    {
+        Timer += Time;
+    }
+
     private void MotionCountPlus()
     {
-        GlobalData.currentScore++;
-        _currentScore.text = GlobalData.currentScore.ToString();
+        GlobalGameData.currentScore++;
+        _currentScore.text = GlobalGameData.currentScore.ToString();
+    }
+
+    public string FromIntToTime(int value)
+    {
+        TimeSpan time = TimeSpan.FromSeconds(value);
+        string text = time.ToString("mm':'ss");
+
+        return text;
     }
 
 

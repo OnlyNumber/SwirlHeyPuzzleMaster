@@ -91,11 +91,11 @@ public class ChipMove : MonoBehaviour
 
     private void SwapDirection(int x, int y)
     {
-        if (GlobalData.boardArray[row_position + x, col_position + y] == 0)
+        if (GlobalGameData.boardArray[row_position + x, col_position + y] == 0)
         {
             empty_position = new Vector3(transform.position.x + x * scale, 0, transform.position.z + y * scale);
-            GlobalData.boardArray[row_position, col_position] = 0;
-            GlobalData.boardArray[row_position + x, col_position + y] = number_chip;
+            GlobalGameData.boardArray[row_position, col_position] = 0;
+            GlobalGameData.boardArray[row_position + x, col_position + y] = number_chip;
             PlaySound();
             canMoveChip = true;
         }
@@ -108,7 +108,7 @@ public class ChipMove : MonoBehaviour
         {
             for (int col = 0; col < 4; col++)
             {
-                if (GlobalData.boardArray[row, col] == number_chip)
+                if (GlobalGameData.boardArray[row, col] == number_chip)
                 {
                     row_position = row;
                     col_position = col;

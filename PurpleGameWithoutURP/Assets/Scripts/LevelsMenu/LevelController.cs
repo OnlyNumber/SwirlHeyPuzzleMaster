@@ -21,33 +21,19 @@ public class LevelController : MonoBehaviour
         {
             for (int i = 0; i < _myLevels.Count - _playerDataManager.CurrentData.Levels.Count; i++)
             {
-                _playerDataManager.CurrentData.Levels.Add(false);
+                _playerDataManager.CurrentData.Levels.Add(-1);
             }
-
-
-
         }
 
 
-        //_playerDataManager.CurrentData.Levels[0] = true;
-
-
-        for (int i = 0; i < _playerDataManager.CurrentData.Levels.Count; i++)
+        for (int i = 0; i < _myLevels.Count; i++)
         {
-
-            _myLevels[i].UnlockLevel(i);
-
-            if (_playerDataManager.CurrentData.Levels[i] == false)
+            _myLevels[i].UnlockLevel(i, _playerDataManager.CurrentData.Levels[i]);
+            
+            if (_playerDataManager.CurrentData.Levels[i] < 0)
             {
-                _myLevels[i].LoseLevel();
                 break;
             }
-            else
-            {
-                _myLevels[i].WinnedLevel();
-            }
-
-
         }
     }
 }

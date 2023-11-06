@@ -21,13 +21,13 @@ public class Level : MonoBehaviour
     private GameObject _lockImage;
 
     [SerializeField]
-    private GameObject _starsWin;
-
-    [SerializeField]
-    private GameObject _starsLose;
-
-    [SerializeField]
     private Button _levelButton;
+
+    [SerializeField]
+    private StarController _starController;
+
+    [SerializeField]
+    private float _LevelTimer;
 
     private void Start()
     {
@@ -41,27 +41,26 @@ public class Level : MonoBehaviour
 
         GlobalLevelInfo.LevelRewardGem = _gemReward;
 
+        GlobalGameData.TimerCount = _LevelTimer;
+
+
     }
 
-    public void UnlockLevel(int levelNumber)
+    public void UnlockLevel(int levelNumber, int starsCount)
     {
         _levelText.text = (levelNumber + 1).ToString();
         _levelNumber = levelNumber;
         _lockImage.SetActive(false);
         _levelButton.enabled = true;
+
+        if (starsCount <= 0)
+        {
+            return;
+        }
+        _starController.gameObject.SetActive(true);
+        _starController.SetStars(starsCount);
+
     }
 
-    public void WinnedLevel()
-    {
-
-        _starsWin.SetActive(true);
-
-    }
-
-    public void LoseLevel()
-    {
-        _starsLose.SetActive(true);
-    }
-
-
+    
 }

@@ -62,7 +62,7 @@ public class TreasureWatcher : MonoBehaviour
 
         for (int i = 0; i < _playerDataManager.CurrentData.Levels.Count; i++)
         {
-            if (_playerDataManager.CurrentData.Levels[i] == false)
+            if (_playerDataManager.CurrentData.Levels[i] < 0)
             {
                 index = i;
                 break;

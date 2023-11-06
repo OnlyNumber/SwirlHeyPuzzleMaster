@@ -11,23 +11,12 @@ public class SkinManager : MonoBehaviour
     [SerializeField]
     private List<SkinButton> _skinList;
 
-    //public delegate List<bool> GetListSkin();
-
-    //public delegate int GetCurrentSkin(int number);
-
-    //public GetListSkin _skinList;
-
-    //public GetCurrentSkin _CurrentSkin;
-
-
     [SerializeField]
     private SkinType _skinType; 
 
 
     private void Start()
     {
-        //Debug.Log(gameObject.name);
-
         _player.OnDataLoaded += Initialize;
     }
 

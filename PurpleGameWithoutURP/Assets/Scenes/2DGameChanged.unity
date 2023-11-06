@@ -206,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4721021}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1893592962}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ContinueLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4721021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,7 +1072,7 @@ GameObject:
   - component: {fileID: 226545962}
   - component: {fileID: 226545964}
   m_Layer: 5
-  m_Name: Best
+  m_Name: TimeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1426,12 +1438,13 @@ MonoBehaviour:
   _coinText: {fileID: 0}
   _gemText: {fileID: 0}
   _currentData:
+    IsAcceptPrivacyPolicy: 0
     Coins: 0
     Gems: 0
     Spin: 0
     VolumeMusic: 0
     VolumeClip: 0
-    _artifacts: 000000000000
+    Artifacts: 
     Levels: 
     LastDate: 
     UnlockedChipSkin: 
@@ -1647,6 +1660,7 @@ GameObject:
   - component: {fileID: 502518677}
   - component: {fileID: 502518679}
   - component: {fileID: 502518678}
+  - component: {fileID: 502518680}
   m_Layer: 5
   m_Name: LoseView
   m_TagString: Untagged
@@ -1713,6 +1727,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502518676}
   m_CullTransparentMesh: 1
+--- !u!114 &502518680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502518676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb809a49b6e72954784087ea6116a5b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &526844816
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,6 +1930,10 @@ PrefabInstance:
       propertyPath: _scoreText
       value: 
       objectReference: {fileID: 2110755251}
+    - target: {fileID: 1075861060691536838, guid: ef2ddf414dc179d4ea8241875887cc69, type: 3}
+      propertyPath: _timerText
+      value: 
+      objectReference: {fileID: 226545962}
     - target: {fileID: 1075861060691536838, guid: ef2ddf414dc179d4ea8241875887cc69, type: 3}
       propertyPath: _currentScore
       value: 
@@ -2686,6 +2716,7 @@ GameObject:
   - component: {fileID: 743335937}
   - component: {fileID: 743335939}
   - component: {fileID: 743335938}
+  - component: {fileID: 743335940}
   m_Layer: 5
   m_Name: Star (1)
   m_TagString: Untagged
@@ -2733,7 +2764,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f1652b9cafca2694c81dde2ba3c9ea34, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a66d829e180443142bc5a0221235af71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2751,6 +2782,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743335936}
   m_CullTransparentMesh: 1
+--- !u!114 &743335940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743335936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b926a060293d8a1499a1094ec3c8c122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _image: {fileID: 743335938}
+  _buttonSpriteOn: {fileID: 21300000, guid: f1652b9cafca2694c81dde2ba3c9ea34, type: 3}
+  _buttonSpriteOff: {fileID: 21300000, guid: a66d829e180443142bc5a0221235af71, type: 3}
 --- !u!1 &759065671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,7 +2979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0000038147, y: -156}
+  m_AnchoredPosition: {x: 0.0000038147, y: -240}
   m_SizeDelta: {x: 877.87, y: 197.14001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &806088661
@@ -3176,7 +3222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &909850373
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3401,10 +3447,10 @@ RectTransform:
   m_Father: {fileID: 211211921}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.82822496}
-  m_AnchorMax: {x: 0.507, y: 0.82822496}
-  m_AnchoredPosition: {x: -3.5, y: -22.919922}
-  m_SizeDelta: {x: 652.88, y: 234.7}
+  m_AnchorMin: {x: 0.5, y: 0.7685387}
+  m_AnchorMax: {x: 0.5, y: 0.7685387}
+  m_AnchoredPosition: {x: 0, y: 19.080078}
+  m_SizeDelta: {x: 659.88, y: 234.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1077450621
 MonoBehaviour:
@@ -3462,7 +3508,7 @@ GameObject:
   - component: {fileID: 1112870338}
   - component: {fileID: 1112870341}
   m_Layer: 5
-  m_Name: OptionsButton
+  m_Name: RestartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3544,6 +3590,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 402772991}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: ReloadCurrentScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1112870339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3606,6 +3664,7 @@ GameObject:
   - component: {fileID: 1137026605}
   - component: {fileID: 1137026607}
   - component: {fileID: 1137026606}
+  - component: {fileID: 1137026608}
   m_Layer: 5
   m_Name: Star
   m_TagString: Untagged
@@ -3653,7 +3712,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f1652b9cafca2694c81dde2ba3c9ea34, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a66d829e180443142bc5a0221235af71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3671,6 +3730,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137026604}
   m_CullTransparentMesh: 1
+--- !u!114 &1137026608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137026604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b926a060293d8a1499a1094ec3c8c122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _image: {fileID: 1137026606}
+  _buttonSpriteOn: {fileID: 21300000, guid: f1652b9cafca2694c81dde2ba3c9ea34, type: 3}
+  _buttonSpriteOff: {fileID: 21300000, guid: a66d829e180443142bc5a0221235af71, type: 3}
 --- !u!1 &1137452011
 GameObject:
   m_ObjectHideFlags: 0
@@ -3721,6 +3795,7 @@ GameObject:
   - component: {fileID: 1223316526}
   - component: {fileID: 1223316528}
   - component: {fileID: 1223316527}
+  - component: {fileID: 1223316529}
   m_Layer: 5
   m_Name: Star (2)
   m_TagString: Untagged
@@ -3768,7 +3843,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f1652b9cafca2694c81dde2ba3c9ea34, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a66d829e180443142bc5a0221235af71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3786,6 +3861,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223316525}
   m_CullTransparentMesh: 1
+--- !u!114 &1223316529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223316525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b926a060293d8a1499a1094ec3c8c122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _image: {fileID: 1223316527}
+  _buttonSpriteOn: {fileID: 21300000, guid: f1652b9cafca2694c81dde2ba3c9ea34, type: 3}
+  _buttonSpriteOff: {fileID: 21300000, guid: a66d829e180443142bc5a0221235af71, type: 3}
 --- !u!1 &1241524872
 GameObject:
   m_ObjectHideFlags: 0
@@ -3950,6 +4040,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 402772991}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: ReloadCurrentScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 402772991}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: ReloadCurrentScene
@@ -5037,8 +5139,13 @@ MonoBehaviour:
   _player: {fileID: 402772989}
   _gamePanel: {fileID: 1275117926}
   _winPanel: {fileID: 270323625}
+  _losePanel: {fileID: 502518680}
+  _starController: {fileID: 2081486742}
   _gemText: {fileID: 597148434}
   _coinText: {fileID: 1971721538}
+  _similarOn1Star: 8
+  _similarOn2Star: 11
+  _similarOn3Star: 15
 --- !u!4 &1893592963
 Transform:
   m_ObjectHideFlags: 0
@@ -5338,6 +5445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2081486741}
+  - component: {fileID: 2081486742}
   m_Layer: 5
   m_Name: Stars
   m_TagString: Untagged
@@ -5368,6 +5476,22 @@ RectTransform:
   m_AnchoredPosition: {x: 4, y: -16.679932}
   m_SizeDelta: {x: -17.997925, y: 201}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2081486742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081486740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27d074daf6be5e4f89ed819ae756ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _starsList:
+  - {fileID: 1137026608}
+  - {fileID: 743335940}
+  - {fileID: 1223316529}
 --- !u!1 &2110755249
 GameObject:
   m_ObjectHideFlags: 0

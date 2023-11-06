@@ -24,10 +24,27 @@ public class GameManager : MonoBehaviour
     private GameObject _winPanel;
 
     [SerializeField]
+    private ActivatePanel _losePanel;
+
+    [SerializeField]
+    private StarController _starController;
+
+    [SerializeField]
     private Text _gemText;
 
     [SerializeField]
     private Text _coinText;
+
+    [SerializeField]
+    private int _similarOn1Star;
+
+    [SerializeField]
+    private int _similarOn2Star;
+
+    [SerializeField]
+    private int _similarOn3Star;
+
+    
 
     private void Start()
     {
@@ -36,11 +53,58 @@ public class GameManager : MonoBehaviour
 
     public void WhenDataLoaded()
     {
-        if (!_player.CurrentData.Levels[GlobalLevelInfo.LevelNumber])
+        
+
+        _background.sprite = _backgroundList[_player.CurrentData.CurrentBackgroundSkin];
+        _board.InitializeBoard(_player.CurrentData.CurrentChipSkin);
+        _board.OnEndGame += EndGame;
+
+
+
+    }
+
+    private int SetStars(int countSimilars)
+    {
+        if(countSimilars >= _similarOn3Star)
+        {
+            _starController.SetStars(3);
+            return 3;
+        }
+        else if(countSimilars >= _similarOn2Star)
+        {
+            _starController.SetStars(2);
+            return 2;
+        }
+        else if(countSimilars >= _similarOn1Star)
+        {
+            _starController.SetStars(1);
+            return 1;
+        }
+        else
+        {
+            return 0;
+        }
+
+    }
+
+    private void EndGame()
+    {
+        if(_board.CountSimilars < _similarOn1Star)
+        {
+            _gamePanel.ActivateNextScene(_losePanel.gameObject);
+
+            return;
+
+        }
+
+        
+
+        if (_player.CurrentData.Levels[GlobalLevelInfo.LevelNumber] <= 0)
         {
             _gemText.text = GlobalLevelInfo.LevelRewardGem.ToString();
             _coinText.text = GlobalLevelInfo.LevelRewardCoin.ToString();
-
+            _player.TryChangeValue(ValueType.coin, GlobalLevelInfo.LevelRewardCoin);
+             _player.TryChangeValue(ValueType.gem, GlobalLevelInfo.LevelRewardGem);
         }
         else
         {
@@ -48,29 +112,25 @@ public class GameManager : MonoBehaviour
             _coinText.text = "0";
         }
 
-        _background.sprite = _backgroundList[_player.CurrentData.CurrentBackgroundSkin];
-        _board.InitializeBoard(_player.CurrentData.CurrentChipSkin);
-        _board.OnWinGame += WinMethod;
-
-
-
-    }
-
-
-    private void WinMethod()
-    {
-        _board.SetChipsCollidersActivity(false);
-
-        if (!_player.CurrentData.Levels[GlobalLevelInfo.LevelNumber])
+        if(_player.CurrentData.Levels[GlobalLevelInfo.LevelNumber] < SetStars(_board.CountSimilars))
         {
-            _player.TryChangeValue(ValueType.coin, GlobalLevelInfo.LevelRewardCoin);
-            _player.TryChangeValue(ValueType.gem, GlobalLevelInfo.LevelRewardGem);
+         _player.CurrentData.Levels[GlobalLevelInfo.LevelNumber] = SetStars(_board.CountSimilars);
         }
-        
-        _player.CurrentData.Levels[GlobalLevelInfo.LevelNumber] = true;
 
         _gamePanel.ActivateNextScene(_winPanel.gameObject);
+    }
 
+    public void ContinueLevel()
+    {
+
+        if (_player.TryChangeValue(ValueType.gem, -500))
+        {
+            _board.AddTime(60);
+            _board.IsGame = true;
+            _board.SetChipsCollidersActivity(true);
+            _losePanel.ActivateNextScene(_gamePanel.gameObject);
+        }
 
     }
+
 }

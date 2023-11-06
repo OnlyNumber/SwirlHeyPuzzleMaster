@@ -44,8 +44,6 @@ public class PlayerDataManager : MonoBehaviour
 
         SceneManager.sceneLoaded += OnSceneLoaded;
 
-        //Application.OpenURL(AppManager.Instance.AppSettings.PrivacyPolicyURL);
-
         Load();
     }
 
@@ -241,7 +239,7 @@ public class PlayerData
 
     public List<bool> Artifacts = new List<bool>();
 
-    public List<bool> Levels = new List<bool>();
+    public List<int> Levels = new List<int>();
 
     public string LastDate;
 
@@ -258,6 +256,8 @@ public class PlayerData
 
     public PlayerData()
     {
+        VolumeMusic = 1;
+        VolumeClip = 1;
 
         Coins = 0;
         Gems = 0;
@@ -266,7 +266,7 @@ public class PlayerData
 
     public struct MyDate
     {
-
+        public int StarCount;
     }
 
 }
