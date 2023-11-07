@@ -12,7 +12,9 @@ public class PlayerDataManager : MonoBehaviour
     public Action OnDataLoaded;
 
     [SerializeField] private Text _coinText;
+    [SerializeField] private Text _coinShopText;
     [SerializeField] private Text _gemText;
+    [SerializeField] private Text _gemShopText;
 
     [SerializeField]
     private PlayerData _currentData;
@@ -49,9 +51,9 @@ public class PlayerDataManager : MonoBehaviour
 
     public void ChangeText()
     {
-        _coinText.text = CurrentData.Coins.ToString();
+        _coinShopText.text = _coinText.text = CurrentData.Coins.ToString();
 
-        _gemText.text = CurrentData.Gems.ToString();
+        _gemShopText.text = _gemText.text = CurrentData.Gems.ToString();
     }
 
     public void Load()

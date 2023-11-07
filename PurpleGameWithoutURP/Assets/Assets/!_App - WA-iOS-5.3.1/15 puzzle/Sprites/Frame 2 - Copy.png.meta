@@ -20,12 +20,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -64,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -1401,77 +1399,78 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Frame 2_0: -392370870
-      Frame 2_1: 1141308645
-      Frame 2_10: 2070520104
-      Frame 2_11: 407108774
-      Frame 2_12: -220995568
-      Frame 2_13: 1257548924
-      Frame 2_14: 1121910773
       Frame 2_15: -920487911
-      Frame 2_16: -565392237
-      Frame 2_17: -13159579
-      Frame 2_18: 1576755771
-      Frame 2_19: -1997160755
-      Frame 2_2: 1582727614
-      Frame 2_20: 1870133525
-      Frame 2_21: -1668737758
-      Frame 2_22: 1601156107
       Frame 2_23: -1551030249
-      Frame 2_24: 907992835
-      Frame 2_25: -1586817257
-      Frame 2_26: 1448632606
-      Frame 2_27: -1308697515
-      Frame 2_28: 1315650893
-      Frame 2_29: -583469919
-      Frame 2_3: -1441204063
-      Frame 2_30: 1157316433
-      Frame 2_31: 1372816725
-      Frame 2_32: 1159050303
-      Frame 2_33: 2079009685
-      Frame 2_34: -610929297
-      Frame 2_35: -1818264387
-      Frame 2_36: -553225777
-      Frame 2_37: 82795887
-      Frame 2_38: -1237805521
-      Frame 2_39: -586774464
-      Frame 2_4: -1291665084
-      Frame 2_40: -1204551450
-      Frame 2_41: -1940000056
-      Frame 2_42: -738701402
-      Frame 2_43: -1143424080
-      Frame 2_44: -1109232437
-      Frame 2_45: 668839654
+      Frame 2_20: 1870133525
       Frame 2_46: 184354213
-      Frame 2_47: -660515922
-      Frame 2_48: 1180207122
-      Frame 2_49: 1052463562
-      Frame 2_5: -1236983370
-      Frame 2_50: 1238314797
-      Frame 2_51: 1134105334
-      Frame 2_52: 438313904
-      Frame 2_53: 1260146597
-      Frame 2_54: 1459114447
-      Frame 2_55: -125278264
-      Frame 2_56: 761706166
       Frame 2_57: 1470567848
-      Frame 2_58: 974525336
-      Frame 2_59: -970992789
-      Frame 2_6: 1815563882
-      Frame 2_60: 985739312
-      Frame 2_61: 2093526626
-      Frame 2_62: 254050608
-      Frame 2_63: -58720906
-      Frame 2_64: 880700188
-      Frame 2_65: 883081263
+      Frame 2_44: -1109232437
+      Frame 2_16: -565392237
       Frame 2_66: 1700657703
-      Frame 2_67: 965684938
+      Frame 2_62: 254050608
+      Frame 2_47: -660515922
       Frame 2_68: -152905146
+      Frame 2_1: 1141308645
+      Frame 2_61: 2093526626
+      Frame 2_31: 1372816725
+      Frame 2_10: 2070520104
+      Frame 2_60: 985739312
+      Frame 2_22: 1601156107
+      Frame 2_3: -1441204063
+      Frame 2_37: 82795887
+      Frame 2_18: 1576755771
+      Frame 2_2: 1582727614
+      Frame 2_38: -1237805521
+      Frame 2_28: 1315650893
+      Frame 2_45: 668839654
+      Frame 2_35: -1818264387
+      Frame 2_5: -1236983370
+      Frame 2_58: 974525336
+      Frame 2_56: 761706166
+      Frame 2_13: 1257548924
+      Frame 2_53: 1260146597
+      Frame 2_12: -220995568
+      Frame 2_33: 2079009685
+      Frame 2_6: 1815563882
+      Frame 2_63: -58720906
+      Frame 2_11: 407108774
+      Frame 2_27: -1308697515
+      Frame 2_49: 1052463562
+      Frame 2_40: -1204551450
+      Frame 2_50: 1238314797
+      Frame 2_24: 907992835
+      Frame 2_14: 1121910773
+      Frame 2_65: 883081263
+      Frame 2_17: -13159579
+      Frame 2_9: 1254007886
+      Frame 2_32: 1159050303
+      Frame 2_55: -125278264
+      Frame 2_30: 1157316433
+      Frame 2_25: -1586817257
+      Frame 2_42: -738701402
+      Frame 2_29: -583469919
+      Frame 2_36: -553225777
+      Frame 2_0: -392370870
+      Frame 2_4: -1291665084
+      Frame 2_64: 880700188
+      Frame 2_54: 1459114447
+      Frame 2_52: 438313904
+      Frame 2_26: 1448632606
       Frame 2_7: -1996216333
       Frame 2_8: 1635548671
-      Frame 2_9: 1254007886
-  mipmapLimitGroupName: 
+      Frame 2_39: -586774464
+      Frame 2_43: -1143424080
+      Frame 2_21: -1668737758
+      Frame 2_51: 1134105334
+      Frame 2_19: -1997160755
+      Frame 2_41: -1940000056
+      Frame 2_34: -610929297
+      Frame 2_59: -970992789
+      Frame 2_48: 1180207122
+      Frame 2_67: 965684938
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

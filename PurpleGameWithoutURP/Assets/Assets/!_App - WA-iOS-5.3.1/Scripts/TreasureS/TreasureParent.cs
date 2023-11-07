@@ -11,17 +11,14 @@ public abstract class TreasureParent : MonoBehaviour
     [SerializeField]
     protected int NeedLevel;
 
-    [SerializeField]
     protected LevelProgresWindow LevelProgresWindow;
 
     protected TreasureWatcher TreasureWatcher; 
 
     protected PlayerDataManager data;
 
-    [SerializeField]
     protected ActivatePanel LevelPanel;
 
-    [SerializeField]
     protected ActivatePanel LevelProgressPopup;
 
     private void Start()

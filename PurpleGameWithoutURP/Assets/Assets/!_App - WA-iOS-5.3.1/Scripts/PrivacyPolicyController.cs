@@ -34,7 +34,6 @@ public class PrivacyPolicyController : MonoBehaviour
 
     public void AcceptPrivacyPolicy()
     {
-        _privacyPolicyPanel.ActivateNextScene(_mainMenuPanel.gameObject);
         _playerDataManager.CurrentData.IsAcceptPrivacyPolicy = true;
     }
 

@@ -15,19 +15,17 @@ public class Treasure : TreasureParent
         gameObject.SetActive(false);
     }
 
-    public override void TryActivateTreasure(int level)
-    {
-        if(level >= this.NeedLevel)
-        TreasureButton.enabled = true;
-    }
-
     public override void Work()
     {
-        Debug.Log("Work");
-
         LevelPanel.ActivateNextScene(LevelProgressPopup.gameObject);
 
         LevelProgresWindow.ClaimReward(this);
 
     }
+    public override void TryActivateTreasure(int level)
+    {
+        if (level >= this.NeedLevel)
+            TreasureButton.enabled = true;
+    }
+
 }

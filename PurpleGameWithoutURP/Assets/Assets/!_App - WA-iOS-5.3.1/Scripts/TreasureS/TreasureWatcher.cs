@@ -38,13 +38,15 @@ public class TreasureWatcher : MonoBehaviour
         }
 
 
+        int lastLevel = LatestLevel();
+
         for (int i = 0; i < _playerDataManager.CurrentData.ActivatedTreasure.Count; i++)
         {
             if (_playerDataManager.CurrentData.ActivatedTreasure[i] == false)
 
             {
                 _treasures[i].Intialize(_levelProgresWindow, _playerDataManager, _levelPanel,_levelProgressPopup,this);
-                _treasures[i].TryActivateTreasure(LatestLevel());
+                _treasures[i].TryActivateTreasure(lastLevel);
             }
             else
             {
