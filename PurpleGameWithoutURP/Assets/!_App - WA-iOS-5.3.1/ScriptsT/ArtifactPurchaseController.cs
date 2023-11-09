@@ -61,11 +61,9 @@ public class ArtifactPurchaseController : MonoBehaviour
                 _artifacts[i].SwitchSprite(true);
             }
         }
-        if (CheckArtifactsCount())
-        {
-            _buyArtifact.enabled = false;
-            _buyArtifact.image.CrossFadeAlpha(0.5f, 0.1f, false);
-        }
+
+        _buyArtifact.enabled = !CheckArtifactsCount();
+
     }
 
     public void ActivateArtifact()

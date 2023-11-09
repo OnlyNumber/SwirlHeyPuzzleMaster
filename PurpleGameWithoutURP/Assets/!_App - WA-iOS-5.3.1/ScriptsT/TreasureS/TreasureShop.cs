@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class TreasureShop : TreasureParent
 {
     [SerializeField]
-    protected TMP_Text TreasureText; 
+    protected Text TreasureText; 
 
     public override void DisableButton()
     {

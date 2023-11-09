@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class Level : MonoBehaviour
 {
@@ -10,7 +9,7 @@ public class Level : MonoBehaviour
     private int _levelNumber;
 
     [SerializeField]
-    private TMP_Text _levelText;
+    private Text _levelText;
 
     [SerializeField]
     private int _coinReward;

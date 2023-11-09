@@ -50,7 +50,6 @@ GameObject:
   - component: {fileID: 2001752045196053205}
   - component: {fileID: 2001752045196053204}
   - component: {fileID: 2001752045196053203}
-  - component: {fileID: 5677057921247828748}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -172,19 +171,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5677057921247828748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001752045196053201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 733b8b4b159adf64a8dd6ba16b8f36a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _clip: {fileID: 8300000, guid: 2e7ed7650321fc14f9c62941d7194f37, type: 3}
 --- !u!1 &2001752045523264940
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +183,6 @@ GameObject:
   - component: {fileID: 2001752045523264928}
   - component: {fileID: 2001752045523264943}
   - component: {fileID: 2001752045523264942}
-  - component: {fileID: 6965796890975006190}
   m_Layer: 5
   m_Name: ForwardButton
   m_TagString: Untagged
@@ -319,19 +304,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6965796890975006190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001752045523264940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 733b8b4b159adf64a8dd6ba16b8f36a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _clip: {fileID: 8300000, guid: 2e7ed7650321fc14f9c62941d7194f37, type: 3}
 --- !u!1 &2001752046293778960
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,6 +697,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TreasureButton: {fileID: 2001752046715995695}
   NeedLevel: 3
+  LevelProgresWindow: {fileID: 0}
+  LevelPanel: {fileID: 0}
+  LevelProgressPopup: {fileID: 0}
   gems: 200
 --- !u!1001 &2001752045079168406
 PrefabInstance:

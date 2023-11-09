@@ -2,7 +2,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System;
-using TMPro;
 
 public class CreateBoard : MonoBehaviour
 {
@@ -13,9 +12,11 @@ public class CreateBoard : MonoBehaviour
     public float split_z = 1.1f;
     [SerializeField] private float chip_scale_modifier;
 
-    [SerializeField] private TMP_Text _scoreText;
+    [SerializeField] private Text _scoreText;
 
-    [SerializeField] private TMP_Text _currentScore;
+    [SerializeField] private Text _currentScore;
+
+    [SerializeField] private Text _best;
 
     public int skinNumber = 0;
 
@@ -27,7 +28,7 @@ public class CreateBoard : MonoBehaviour
     private List<TileFabric> _skinsFabric;
 
     [SerializeField]
-    private TMP_Text _timerText;
+    private Text _timerText;
 
     public bool IsGame = true;
 
@@ -47,6 +48,8 @@ public class CreateBoard : MonoBehaviour
     void Start()
     {
         Timer = GlobalGameData.TimerCount;
+
+        _best.text = PlayerPrefs.GetInt("best").ToString();
 
         OnEndGame += (() => SetChipsCollidersActivity(false));
     }
