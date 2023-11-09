@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using TMPro;
 
 public class SkinButton : MonoBehaviour
 {
@@ -10,9 +11,6 @@ public class SkinButton : MonoBehaviour
 
     [SerializeField]
     private int _skinNumber;
-
-    [SerializeField]
-    private Text _levelText;
 
     [SerializeField]
     private GameObject _lockImage;
@@ -24,7 +22,7 @@ public class SkinButton : MonoBehaviour
     private GameObject _costGO;
 
     [SerializeField]
-    private Text _costText;
+    private TMP_Text _costText;
 
     [SerializeField]
     private Button _buyButton;

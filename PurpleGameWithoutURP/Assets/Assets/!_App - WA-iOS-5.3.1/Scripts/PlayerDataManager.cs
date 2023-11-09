@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerDataManager : MonoBehaviour
 {
@@ -11,10 +12,10 @@ public class PlayerDataManager : MonoBehaviour
 
     public Action OnDataLoaded;
 
-    [SerializeField] private Text _coinText;
-    [SerializeField] private Text _coinShopText;
-    [SerializeField] private Text _gemText;
-    [SerializeField] private Text _gemShopText;
+    [SerializeField] private TMP_Text _coinText;
+    [SerializeField] private TMP_Text _coinShopText;
+    [SerializeField] private TMP_Text _gemText;
+    [SerializeField] private TMP_Text _gemShopText;
 
     [SerializeField]
     private PlayerData _currentData;
@@ -227,7 +228,7 @@ public enum SkinType
 [Serializable]
 public class PlayerData
 {
-    public bool IsAcceptPrivacyPolicy;
+    public bool IsFirstLog;
 
     public int Coins;
 

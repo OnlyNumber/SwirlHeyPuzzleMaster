@@ -15,13 +15,13 @@ public class PrivacyPolicyController : MonoBehaviour
 
     private void Start()
     {
-        _playerDataManager.OnDataLoaded += Initialize;
+        //_playerDataManager.OnDataLoaded += Initialize;
 
     }
 
     public void Initialize()
     {
-        if (_playerDataManager.CurrentData.IsAcceptPrivacyPolicy)
+        if (_playerDataManager.CurrentData.IsFirstLog)
         {
             _privacyPolicyPanel.ActivateNextScene(_mainMenuPanel.gameObject);
         }
@@ -34,7 +34,7 @@ public class PrivacyPolicyController : MonoBehaviour
 
     public void AcceptPrivacyPolicy()
     {
-        _playerDataManager.CurrentData.IsAcceptPrivacyPolicy = true;
+        _playerDataManager.CurrentData.IsFirstLog = true;
     }
 
 
