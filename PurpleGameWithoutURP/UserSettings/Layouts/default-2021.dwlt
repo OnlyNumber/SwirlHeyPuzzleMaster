@@ -21,7 +21,11 @@ MonoBehaviour:
   m_ShowMode: 4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Project
+=======
+  m_Title: Inspector
+>>>>>>> parent of 1021b71 (Commit)
 =======
   m_Title: Inspector
 >>>>>>> parent of 1021b71 (Commit)
@@ -131,7 +135,11 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 108
+=======
+  controlID: 1779
+>>>>>>> parent of 1021b71 (Commit)
 =======
   controlID: 1779
 >>>>>>> parent of 1021b71 (Commit)
@@ -157,7 +165,11 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 278.4
+=======
+    width: 316.8
+>>>>>>> parent of 1021b71 (Commit)
 =======
     width: 316.8
 >>>>>>> parent of 1021b71 (Commit)
@@ -189,9 +201,15 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 278.4
     y: 0
     width: 100
+=======
+    x: 316.8
+    y: 0
+    width: 373.60004
+>>>>>>> parent of 1021b71 (Commit)
 =======
     x: 316.8
     y: 0
@@ -229,9 +247,15 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 378.4
     y: 0
     width: 744.7999
+=======
+    x: 690.4
+    y: 0
+    width: 490.40002
+>>>>>>> parent of 1021b71 (Commit)
 =======
     x: 690.4
     y: 0
@@ -248,7 +272,11 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 17
+=======
+  controlID: 1735
+>>>>>>> parent of 1021b71 (Commit)
 =======
   controlID: 1735
 >>>>>>> parent of 1021b71 (Commit)
@@ -274,6 +302,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 744.7999
     height: 316.8
   m_MinSize: {x: 102, y: 121}
@@ -282,11 +311,14 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 1021b71 (Commit)
+=======
+>>>>>>> parent of 1021b71 (Commit)
     width: 490.40002
     height: 397.6
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 1021b71 (Commit)
   m_Panes:
@@ -297,6 +329,11 @@ MonoBehaviour:
   m_Selected: 1
   m_LastSelected: 0
 =======
+=======
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 15}
+>>>>>>> parent of 1021b71 (Commit)
 =======
   m_Panes:
   - {fileID: 14}
@@ -323,9 +360,15 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 316.8
     width: 744.7999
     height: 423.60004
+=======
+    y: 397.6
+    width: 490.40002
+    height: 342.80002
+>>>>>>> parent of 1021b71 (Commit)
 =======
     y: 397.6
     width: 490.40002
@@ -360,6 +403,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1123.2
     y: 0
     width: 412.80005
@@ -374,11 +418,16 @@ MonoBehaviour:
     x: 1180.8
     y: 0
 >>>>>>> parent of 1021b71 (Commit)
+=======
+    x: 1180.8
+    y: 0
+>>>>>>> parent of 1021b71 (Commit)
     width: 355.19995
     height: 740.4
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 1021b71 (Commit)
   m_Panes:
@@ -389,6 +438,11 @@ MonoBehaviour:
   m_Selected: 1
   m_LastSelected: 0
 =======
+=======
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+>>>>>>> parent of 1021b71 (Commit)
 =======
   m_Panes:
   - {fileID: 17}
@@ -421,7 +475,11 @@ MonoBehaviour:
     y: 73.6
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 277.4
+=======
+    width: 315.8
+>>>>>>> parent of 1021b71 (Commit)
 =======
     width: 315.8
 >>>>>>> parent of 1021b71 (Commit)
@@ -486,9 +544,15 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 278.4
     y: 73.6
     width: 98
+=======
+    x: 316.80002
+    y: 73.6
+    width: 371.60004
+>>>>>>> parent of 1021b71 (Commit)
 =======
     x: 316.80002
     y: 73.6
@@ -556,7 +620,11 @@ MonoBehaviour:
       snapOffset: {x: -193.59999, y: -171.20001}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       snapOffsetDelta: {x: 95.2, y: 0}
+=======
+      snapOffsetDelta: {x: 0, y: 0}
+>>>>>>> parent of 1021b71 (Commit)
 =======
       snapOffsetDelta: {x: 0, y: 0}
 >>>>>>> parent of 1021b71 (Commit)
@@ -866,6 +934,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 378.4
     y: 73.6
     width: 742.7999
@@ -873,11 +942,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 1021b71 (Commit)
+=======
+>>>>>>> parent of 1021b71 (Commit)
     x: 690.4
     y: 73.6
     width: 488.40002
     height: 376.6
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1021b71 (Commit)
+=======
 >>>>>>> parent of 1021b71 (Commit)
 =======
 >>>>>>> parent of 1021b71 (Commit)
@@ -889,6 +963,7 @@ MonoBehaviour:
     m_TreeViewState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -896,11 +971,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 1021b71 (Commit)
+=======
+>>>>>>> parent of 1021b71 (Commit)
       scrollPos: {x: 0, y: 316.4}
       m_SelectedIDs: 5af00300
       m_LastClickedID: 258138
       m_ExpandedIDs: 88fffeff863cfffff440ffffbe45ffffaa57ffffa25affffba5bffff085fffff6862ffff3a65ffff4265ffff8868ffffb669ffffee7fffff3e84ffffa088ffff2089fffffc89ffffc68bffff2c97ffffd2a5ffff6aa6ffff2eacffff64adffff38d1ffffc2e5ffffd8e7ffff2ee9ffffbaebffff3eecffffe4f2ffff9cf6ffff26fbfffff4ffffff727100009aa5000006b20000fed800008adb00009edb00007edc00002add00004aeb0000260001004200010022010100ac010100ce0101004a25010012300100d27f01005e810100fc8b010078ae0100c4ae0100a0af0100f4af01003eb001006cb001000cc0010098c1010036cc0100681f0200083502008c360200f24002006275020010760200007a0200847b0200ea850200ac2a0300302c0300963603005a590300085a0300466c030000d20300eae4030050ef0300
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1021b71 (Commit)
+=======
 >>>>>>> parent of 1021b71 (Commit)
 =======
 >>>>>>> parent of 1021b71 (Commit)
@@ -949,10 +1029,17 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 378.4
     y: 73.6
     width: 742.7999
     height: 295.8
+=======
+    x: 690.4
+    y: 73.6
+    width: 488.40002
+    height: 376.6
+>>>>>>> parent of 1021b71 (Commit)
 =======
     x: 690.4
     y: 73.6
@@ -991,6 +1078,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 378.4
     y: 390.4
     width: 742.7999
@@ -998,11 +1086,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 1021b71 (Commit)
+=======
+>>>>>>> parent of 1021b71 (Commit)
     x: 690.4
     y: 471.2
     width: 488.40002
     height: 321.80002
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1021b71 (Commit)
+=======
 >>>>>>> parent of 1021b71 (Commit)
 =======
 >>>>>>> parent of 1021b71 (Commit)
@@ -1025,7 +1118,11 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/!_App - WA-iOS-5.3.1/ScriptsT
+=======
+    - Assets/Prefabs
+>>>>>>> parent of 1021b71 (Commit)
 =======
     - Assets/Prefabs
 >>>>>>> parent of 1021b71 (Commit)
@@ -1039,7 +1136,11 @@ MonoBehaviour:
   m_LastFolders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/!_App - WA-iOS-5.3.1/ScriptsT
+=======
+  - Assets/Prefabs
+>>>>>>> parent of 1021b71 (Commit)
 =======
   - Assets/Prefabs
 >>>>>>> parent of 1021b71 (Commit)
@@ -1053,6 +1154,7 @@ MonoBehaviour:
   m_FolderTreeState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 31}
     m_SelectedIDs: 62700000
     m_LastClickedID: 28770
@@ -1060,11 +1162,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 1021b71 (Commit)
+=======
+>>>>>>> parent of 1021b71 (Commit)
     scrollPos: {x: 0, y: 262.19998}
     m_SelectedIDs: 2a320100
     m_LastClickedID: 78378
     m_ExpandedIDs: 0000000066750000687500006a7500006c750000807500008875000042930000a09b0000bca10000
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1021b71 (Commit)
+=======
 >>>>>>> parent of 1021b71 (Commit)
 =======
 >>>>>>> parent of 1021b71 (Commit)
@@ -1097,7 +1204,11 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000005470000056700000587000005a7000005c7000005e700000607000006270000064700000
+=======
+    m_ExpandedIDs: 0000000066750000687500006a7500006c750000
+>>>>>>> parent of 1021b71 (Commit)
 =======
     m_ExpandedIDs: 0000000066750000687500006a7500006c750000
 >>>>>>> parent of 1021b71 (Commit)
@@ -1181,9 +1292,15 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1123.2001
     y: 73.6
     width: 411.80005
+=======
+    x: 1180.8
+    y: 73.6
+    width: 354.19995
+>>>>>>> parent of 1021b71 (Commit)
 =======
     x: 1180.8
     y: 73.6
